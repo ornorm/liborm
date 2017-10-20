@@ -1,0 +1,50 @@
+{
+  "name": "liborm",
+  "version": "1.0.0",
+  "description": "ORM that use the legacy libsqlite",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornorm/liborm.git"
+  },
+  "keywords": [
+    "Command",
+    "CommandReceiver",
+    "SelectionCommand",
+    "SQLiteCommandReceiver",
+    "SQLiteCommand",
+    "SQLiteResult",
+    "Entity",
+    "Model",
+    "SQLiteModel",
+    "Orm",
+    "Selection",
+    "SQLiteSelection",
+    "Drop",
+    "Insert",
+    "Delete",
+    "Update",
+    "Select"
+  ],
+  "author": "Aime Biendo <abiendo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ornorm/liborm/issues"
+  },
+  "homepage": "https://github.com/ornorm/liborm#readme",
+  "dependencies": {
+    "eventslib": "^1.0.0",
+    "hjs-collection": "^1.0.0",
+    "hjs-core": "^1.0.1",
+    "hjs-future": "^1.0.0",
+    "libhttp": "^1.0.1",
+    "libobs": "^1.0.0",
+    "libsqlite": "^1.0.1"
+  }
+}
